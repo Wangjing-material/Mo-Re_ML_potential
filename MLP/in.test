@@ -22,5 +22,5 @@ minimize 1.0e-15 1.0e-15 1000 1000
 print "@@@@ $P"
 clear 
 next x 
-jump in.cif_ML
+jump in.test
 
