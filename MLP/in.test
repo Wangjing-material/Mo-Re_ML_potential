@@ -10,6 +10,7 @@ mass 1 95.95
 
 pair_style      ml/energy 1 -6.10
 pair_coeff      * * Param_ML_pot.txt Mo 
+#pair_coeff      * * Param_ML_pot.txt Mo Re
 
 neighbor 1.0 bin 
 neigh_modify every 1 delay 5 check yes 
