@@ -2,7 +2,7 @@
  ===================
  The full details of the machine learning model, along with the code for LAMMPS implementation are displayed in MLP and tabMLP folders, respectively.
 # 1 How to use machine learning potential(MLP)
- 1.1 Requires lammps version 3 March 2020 or older!
+ 1.1 Requires lammps version 3 March 2020 or older!  
  1.2 Copy the files("pair_ml_energy.cpp" and "pair_ml_energy.h") in "MLP" into your lammps/src/ folder and compile normally.
  1.3 For pure Mo, use the pair_style ml/energy as for example:
     pair_style      ml/energy 1 -6.10
